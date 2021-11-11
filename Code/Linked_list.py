@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, **kwargs):
-        self.value = kwargs.get('value', 0)
+        self.value = kwargs.get('value', None)
         self.nextval = kwargs.get('next', None)
 
 class LinkedList:
