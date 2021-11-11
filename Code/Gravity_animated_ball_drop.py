@@ -1,3 +1,12 @@
+"""
+
+Joshuah Braun, updated 11/11/2021, NinjaJosh5@gmail.com
+
+Uses math and physics to simulate a ball being dropped. Proof of concept
+Uses threading to allow for multiple balls to be dropped per execution
+Also has functionality for graphing the physics
+
+"""
 from math import sqrt
 import matplotlib.pyplot as plt
 import termplotlib as tpl
